@@ -3,8 +3,8 @@ require_relative "../lib/cmake"
 class Dolphin < Formula
   desc "KDE File Manager"
   homepage "https://apps.kde.org/dolphin"
-  url "https://download.kde.org/stable/release-service/22.04.3/src/dolphin-22.04.3.tar.xz"
-  sha256 "8e573e1df98b5b8f134374da641c1f289a00d1b6aabf65ecf3b2a6a854b22a1e"
+  url "https://download.kde.org/stable/release-service/22.08.2/src/dolphin-22.08.2.tar.xz"
+  sha256 "39f2ee237ee5e62baf05e3798d8512e01a7d40276fca03488e256c6e30543b56"
   head "https://invent.kde.org/system/dolphin.git", branch: "master"
 
   depends_on "cmake" => [:build, :test]
@@ -13,8 +13,8 @@ class Dolphin < Formula
   depends_on "ninja" => :build
 
   depends_on "ansatzX/homebrew-kde/kf5-breeze-icons"
+  depends_on "ansatzX/homebrew-kde/kf5-kactivities"
   depends_on "ansatzX/homebrew-kde/kf5-kcmutils"
-  depends_on "ansatzX/homebrew-kde/kf5-kdelibs4support"
   depends_on "ansatzX/homebrew-kde/kf5-kfilemetadata"
   depends_on "ansatzX/homebrew-kde/kf5-kinit"
   depends_on "ansatzX/homebrew-kde/kf5-knewstuff"

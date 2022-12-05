@@ -3,8 +3,8 @@ require_relative "../lib/cmake"
 class Drkonqi < Formula
   desc "Crash handler for KDE software"
   homepage "https://kde.org/plasma-desktop/"
-  url "https://download.kde.org/stable/plasma/5.25.3/drkonqi-5.25.3.tar.xz"
-  sha256 "411d3cfc253ee856b4da56ed2a22187a4e4971f4e98faa657a4c3eb23abee685"
+  url "https://download.kde.org/stable/plasma/5.25.5/drkonqi-5.25.5.tar.xz"
+  sha256 "675a6b1386215cfdfd76604d76906b3e601a34ea0880f148e5b149d1a85b846f"
   head "https://invent.kde.org/plasma/drkonqi.git", branch: "master"
 
   depends_on "cmake" => [:build, :test]
